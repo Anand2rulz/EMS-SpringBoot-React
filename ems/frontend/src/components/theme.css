@@ -1,0 +1,22 @@
+.app {
+  display: flex;
+  min-height: 100vh;
+  background: #f4f6fb;
+  color: #222;
+}
+
+.app.dark {
+  background: #1e1e2f;
+  color: #eee;
+}
+
+.app.dark .card,
+.app.dark .chart-box {
+  background: #2a2a40;
+  color: #eee;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+}

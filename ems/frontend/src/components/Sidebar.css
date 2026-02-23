@@ -1,0 +1,43 @@
+.sidebar {
+  width: 220px;
+  background: linear-gradient(180deg, #667eea, #764ba2);
+  color: white;
+  padding: 20px;
+  min-height: 100vh;
+}
+
+.sidebar h2 {
+  margin-bottom: 20px;
+}
+
+.menu-item {
+  padding: 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-bottom: 8px;
+  transition: all 0.3s ease;
+}
+
+.menu-item:hover {
+  background: rgba(255,255,255,0.2);
+  transform: translateX(5px);
+}
+
+.menu-item.active {
+  background: rgba(255,255,255,0.3);
+}
+.logout {
+  margin-top: 20px;
+  padding: 12px;
+  background: rgba(0,0,0,0.2);
+  border-radius: 8px;
+  cursor: pointer;
+  text-align: center;
+}
+.user-box {
+  background: rgba(255,255,255,0.2);
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
